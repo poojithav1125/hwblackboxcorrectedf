@@ -1,0 +1,26 @@
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Housing Website</title> <style> body { font-family: Arial, sans-serif; color: white; background-color: #f06c64; margin: 0; padding: 0; }
+    header { background-color: rgba(0, 0, 0, 0.5); padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+    
+    header h1 { margin: 0; color: white; }
+    
+    .houses-list { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    
+    .house { background-color: rgba(255, 255, 255, 0.7); padding: 15px; margin: 10px; width: 30%; }
+    
+    .house img { width: 100%; }
+    
+    .house h2 { margin: 10px 0; color: #f06c64; }
+    
+    .house p { margin: 0; }
+    
+    footer { background-color: rgba(0, 0, 0, 0.5); padding: 10px; text-align: center; color: white; }
+    
+    form { background-color: rgba(255, 255, 255, 0.7); padding: 15px; margin: 10px; width: 30%; }
+    
+    label { display: block; margin-top: 10px; }
+    
+    input[type="text"], input[type="email"], textarea { width: 100%; padding: 5px; margin-top: 5px; }
+    
+    input[type="submit"] { background-color: #f06c64; color: white; padding: 10px; border: none; cursor: pointer; margin-top: 10px; } </style>
+    
+    </head> <body> <header> <h1>Housing Website</h1> <div> <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-right: 10px;">Home</button> <button style="background-color: #00b7c2; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-right: 10px;">Houses List</button> <button style="background-color: #f06c64; color: white; padding: 10px 20px; border: none; cursor: pointer;">Contact Us</button> </div> </header> <section class="houses-list"> <div class="house"> <img src="https://via.placeholder.com/300x200?text=House+1" alt="House 1"> <h2>House 1</h2> <p>Location: 123 Main St</p> <p>Price: $500,000</p> <p>Bedrooms: 3</p> <p>Bathrooms: 2</p> </div> <div class="house"> <img src="https://via.placeholder.com/300x200?text=House+2" alt="House 2"> <h2>House 2</h2> <p>Location: 456 Elm St</p> <p>Price: $600,000</p> <p>Bedrooms: 4</p> <p>Bathrooms: 3</p> </div> <div class="house"> <img src="https://via.placeholder.com/300x200?text=House+3" alt="House 3"> <h2>House 3</h2> <p>Location: 789 Oak St</p> <p>Price: $700,000</p> <p>Bedrooms: 5</p> <p>Bathrooms: 4</p> </div> </section> <footer> <p>Copyright © 2023 Housing Website</p> </footer> <section class="form"> <h2>Contact Us</h2> <form action="#"> <label for="name">Name:</label> <input type="text" id="name" name="name"> <label for="email">Email:</label> <input type="email" id="email" name="email"> <label for="message">Message:</label> <textarea id="message" name="message"></textarea> <input type="submit" value="Send Message"> </form> </section> </body> </html>
